@@ -1,5 +1,5 @@
 # eigenvalue_decomposition_speed_comparison
-**Why is LAPACK/C++ 10 times slower than MATLAB's eig?**
+**Why is LAPACK/C++ 10+ times slower than MATLAB's eig?**
 
 Using Qt5:
 ```bash
@@ -35,3 +35,6 @@ First 10 eigenvalues:
 
 M=2000: Elapsed time (sec) = 0.453836
 ```
+
+The reason is that MATLAB's version is making **very** good us4 of multiple CPUs!
+
