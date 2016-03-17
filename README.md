@@ -36,5 +36,5 @@ First 10 eigenvalues:
 M=2000: Elapsed time (sec) = 0.453836
 ```
 
-The reason is that MATLAB's version is making **very** good us4 of multiple CPUs!
+The reason for the discrepancy is that MATLAB is making **very** good use of multiple CPUs!
 
